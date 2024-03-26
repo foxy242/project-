@@ -6,7 +6,7 @@
     margin-right: auto;
 }
 
-.vector__prs {
+.vector_prs {
     background-color: #000000;
     height: 0.5px;
     width: 536px;
@@ -14,33 +14,33 @@
     margin-top: 36px;
 }
 
-.prs-button__item {
+.prs_button_item {
     list-style: none;
 }
 
-.score__item {
+.score_item {
     list-style: none;
 }
 
-.prs__button {
+.prs_button {
     list-style: none;
     border-style: none;
     display: block;
 }
 
-.prs-computer__button {
+.prs_computer_button {
     list-style: none;
     border-style: none;
     display: block;
 }
-.time-calculator-line{
+.time_calculator-line{
     background-color: #000000;
     height: 0.5px;
     width: 536px;
     margin: auto;
     margin-top: 36px;
 }
-.time-calculator__title {
+.time_calculator_title {
     font-family: "Montserrat Alternates", solid;
     font-weight: 400;
     font-size: 16px;
@@ -48,21 +48,21 @@
     margin-top: 36px;
 }
 
-.time-input__list {
+.time_input_list {
     display: flex;
     align-items: center;
     padding: 0;
     
 }
 
-.time-calculator__list {
+.time_calculator_list {
     display: flex;
     justify-content: center;
     padding: 0;
     margin-right: 150px;
 }
 
-.input-time__calculator {
+.input_time_calculator {
     outline: 0;
     border: 0;
     width: 150px;
@@ -76,7 +76,7 @@
     font-weight: 400;
 }
 
-.time-button__calculator {
+.time_button_calculator {
     font-family: "Montserrat Alternates", solid;
     font-weight: 400;
     font-size: 16px;
@@ -90,7 +90,7 @@
     border: none;
 }   
 
-.time-calc__stroke {
+.time_calc_stroke {
     width: 100px;
     height: 1px;
     gap: 0px;
@@ -103,7 +103,7 @@
     margin-right: 33px;
 }
 
-.time-calc__time {
+.time_calc_time {
     font-family: "Montserrat Alternates", solid;
     font-weight: 400;
     font-size: 16px;
