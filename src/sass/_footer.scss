@@ -1,0 +1,116 @@
+.container {
+    max-width: 1090px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_logo {
+    width: 165px;
+    height: 70px;
+    margin-top: 14px;
+}
+.footer_box {
+    display: flex;
+    list-style: none;
+}
+.footer_box_item {
+    &:first-child {
+        margin-right: 185px;
+    }
+    &:nth-child(2) {
+        margin-right: 187px;
+    }
+}
+.footer_contacts {
+    font-size: 12px;
+    width: 207px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.footer_gmail_input {
+    width: 204px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d7d7d7;
+    color: #7e7e7e;
+    padding-left: 10px;
+    font-style: 12px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.footer_subscribe_button {
+    color: #fff;
+    background: #000;
+    width: 107px;
+    height: 35px;
+    border: none;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-left: 36px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.footer_description {
+    color: #000;
+    font-size: 6px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.footer_subscribe_box {
+    display: flex;
+    margin-top: 36px;
+}
+.footer-backdrop {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: 1000ms;
+    z-index: 1000;
+}
+.footer_backdrop_background_modal {
+    position: absolute;
+    width: 463px;
+    height: 245px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+.footer_is_hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.footer_backdrop_close {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.footer_backdrop_close_svg {
+    width: 15px;
+    height: 15px;
+    fill: #000;
+}
+.footer_backdrop_close .footer_backdrop_close_svg {
+    position: relative;
+    transition: transform 1s;
+}
+.footer_backdrop_title {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer_backdrop_background {
+    background-image: url(../images/footer/footer-backdrop.png);
+    width: 378px;
+    height: 106px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+}

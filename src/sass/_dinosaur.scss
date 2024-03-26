@@ -1,0 +1,33 @@
+.dino-title {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.dino-game {
+    margin-top: 36px;
+}
+.container {
+    max-width: 1090px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#canvass {
+    border-bottom: 2px black solid;
+    display: block;
+    margin: auto;
+}
+#retryButton {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
