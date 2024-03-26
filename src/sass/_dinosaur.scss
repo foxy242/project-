@@ -19,6 +19,9 @@
     display: block;
     margin: auto;
 }
+.container #retryButton {
+    position: relative;
+}
 #retryButton {
     display: none;
     position: absolute;
@@ -27,7 +30,16 @@
     transform: translate(-50%, -50%);
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #ffffff;
-    border: 1px solid #000000;
+    background-color: #d7d7d7;
+    color: black;
+    border-radius: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
     cursor: pointer;
+    
+}
+.dino-line {
+        background-color: #000000;
+        height: 1px;
+        width: 536px;
+        margin: auto;
 }
