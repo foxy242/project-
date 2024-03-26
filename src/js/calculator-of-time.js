@@ -5,8 +5,8 @@ function calculateTime() {
     let hours = Math.floor((inputValue % 86400) / 3600);
     let minutes = Math.floor((inputValue % 3600) / 60);
     let seconds = inputValue % 60;
-    let timeOutput = document.querySelector('.time-calc__time');
+    let timeOutput = document.querySelector('.time_calc_time');
     timeOutput.textContent = ` ${days}дн   ${hours}:${minutes}:${seconds}`;
 }
 
-document.querySelector('.time-button__calculator').addEventListener('click', calculateTime);
+document.querySelector('.time_button_calculator').addEventListener('click', calculateTime);
