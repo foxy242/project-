@@ -3,11 +3,11 @@ let swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   loop: true,
   pagination: {
-    el: ".swiper-pagination",
+    el: ".swiper_pagination",
     clickable: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper_button_next",
+    prevEl: ".swiper_button_prev",
   },
 });

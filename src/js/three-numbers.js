@@ -1,7 +1,7 @@
-const inputOne = document.getElementById('one-input');
-    const inputTwo = document.getElementById('two-input');
-    const inputThree = document.getElementById('three-input');
-    const highestNumberElement = document.getElementById('time-result');
+const inputOne = document.getElementById('one_input');
+    const inputTwo = document.getElementById('two_input');
+    const inputThree = document.getElementById('three_input');
+    const highestNumberElement = document.getElementById('time_result');
 
     function findHighestNumber() {
         const num1 = parseFloat(inputOne.value);
