@@ -1,4 +1,4 @@
-.vector__scientist {
+.vector_scientist {
     width: 536px;
     height: 1px;
     background-color: #000;
@@ -6,21 +6,21 @@
     margin-bottom: 36px;
 }
 
-#info__section {
+#info_section {
     padding: 36px 0;
     font-family: "Montserrat Alternates", solid;
     font-weight: 400;
     font-size: 16px;
 }
 
-.info__title {
+.info_title {
     font-weight: 400;
     font-size: 16px;
     color: #000;
     text-align: center;
 }
 
-.info__scientists {
+.info_scientists {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -32,7 +32,7 @@
     padding: 0;
 }
 
-.info__scientist {
+.info_scientist {
     width: 100px;
     height: 100px;
     border-radius: 20px;
@@ -47,7 +47,7 @@
     font-size: 12px;
 }
 
-.info__prompts {
+.info_prompts {
     margin-top: 36px;
     gap: 20px 36px;
     display: flex;
@@ -58,7 +58,7 @@
     margin: 0;
 }
 
-.info__but {
+.info_but {
     font-family: "Montserrat Alternates", solid;
     font-weight: 400;
     font-size: 16px;

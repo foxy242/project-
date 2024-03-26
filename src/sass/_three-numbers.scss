@@ -6,7 +6,7 @@
     margin-right: auto;
 }
 
-.line__prs {
+.line_prs {
     background-color: #000000;
     height: 0.5px;
     width: 536px;
@@ -14,7 +14,7 @@
     margin-top: 36px;
 }
 
-.highest-number__title {
+.highest_number_title {
     font-family: "Montserrat Alternates", solid;
     font-weight: 400;
     font-size: 16px;
@@ -22,14 +22,14 @@
     margin-top: 36px;
 }
 
-.input-num__list {
+.input_num_list {
     display: flex;
     justify-content: center;
     padding: 0;
     gap: 38px;
 }
 
-.input-num__calculator {
+.input_num_calculator {
     outline: 0;
     border: 0;
     width: 150px;
@@ -44,7 +44,7 @@
     margin-top: 36px;
 }
 
-.highest-number__text {
+.highest_number_text {
     font-family: "Montserrat Alternates", solid;
     font-weight: 400;
     font-size: 16px;

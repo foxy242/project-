@@ -18,7 +18,7 @@ body {
     height: 100%;
 }
 
-.swiper-slide {
+.swiper_slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -27,7 +27,7 @@ body {
     align-items: center;
 }
 
-.swiper-slide img {
+.swiper_slide img {
     display: block;
     width: 150px;
     height: 150px;
@@ -45,42 +45,42 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.our-team__box {
+.our_team_box {
     margin: auto;
 }
-.our-team__title {
+.our_team_title {
     text-align: center;
     margin-top: 36px;
     font-size: 16px;
     font-family: "Montserrat Alternates", sans-serif;
 }
-.our-team__line {
+.our_team_line {
     background-color: #000000;
     height: 1px;
     width: 536px;
     margin: auto;
     margin-top: 36px;
 }
-.worker-img {
+.worker_img {
     width: 150px;
     height: 150px;
     border-radius: 20px;
     margin: auto;
 }
-.worker-name {
+.worker_name {
     font-size: 14px;
     font-family: "Montserrat Alternates", sans-serif;
 }
-.worker-work {
+.worker_work {
     font-size: 12px;
     font-family: "Montserrat Alternates", sans-serif;
     margin-bottom: 24px;
 }
-.swiper-button-next::after {
+.swiper_button_next::after {
     color: black;
     --swiper-navigation-size: 90px;
 }
-.swiper-button-prev::after {
+.swiper_button_prev::after {
     color: black;
     --swiper-navigation-size: 90px;
 }

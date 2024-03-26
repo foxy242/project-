@@ -3,7 +3,7 @@ document.getElementById('equals').addEventListener('click', function() {
     let secondNumber = parseFloat(document.getElementById('second-input').value);
     let operation = document.querySelector('.button__list .active').textContent.trim();
     let result;
-    
+
     switch(operation) {
         case '+':
             result = firstNumber + secondNumber;

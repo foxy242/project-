@@ -15,17 +15,17 @@
 //     list-style: none;
 // }
 
-#prs__section {
+#prs_section {
     font-family: "Montserrat Alternates", solid;
     font-weight: 400;
 }
 
-.vector__prs {
+.vector_prs {
     display: flex;
     justify-content: center;
 }
 
-.prs__title {
+.prs_title {
     font-family: "Montserrat Alternates", solid;
     font-weight: 400;
     font-size: 16px;
@@ -33,7 +33,7 @@
     margin-top: 36px;
 }
 
-.prs__select {
+.prs_select {
     align-items: center;
     width: 256px;
     height: 60px;
@@ -42,7 +42,7 @@
     margin-top: 36px;
 }
 
-.prs-button__list {
+.prs_button_list {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -50,11 +50,11 @@
     list-style: none;
 }
 
-.prs-button__item:first-child {
+.prs_button_item:first_child {
     margin-left: 160px;
 }
 
-.prs__button {
+.prs_button {
     background-color: black;
     width: 60px;
     height: 60px;
@@ -62,23 +62,23 @@
     color: aliceblue;
 }
 
-.score__list {
+.score_list {
     width: 93px;
     height: 60px;
     list-style: none;
 }
 
-.score__item:nth-child(2) {
+.score_item:nth_child(2) {
     width: 200px;
 }
 
-.prs__winOrLose {
+.prs_winOrLose {
     display: flex;
     justify-content: center;
     margin-top: 36px;
 }
 
-.prs-computer__button {
+.prs_computer_button {
     margin: auto;
     margin-top: 36px;
     margin-bottom: 36px;

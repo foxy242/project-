@@ -1,5 +1,3 @@
-// const gmail = document.querySelector(".footer__gmail-input").value
-// if (gmail.includes("@gmaii.com")) {
   const refs = {
     openModalBtn: document.querySelector('[data-open-modal]'),
     closeModalBtn: document.querySelector('[data-close-modal]'),
@@ -18,7 +16,3 @@
   function logBackdropClick() {
     console.log('Це клік в бекдроп');
   }
-// } else {
-//   alert("ds")
-// }
-  
