@@ -34,10 +34,10 @@
               </select>
             </li>
             <li class="header_item">
-              <a href="our_team" class="header_text">Наша команда</a>
+              <a href="#our_team" class="header_text">Наша команда</a>
             </li>
             <li class="header_item">
-              <a href="footer" class="header_text">Контакти</a>
+              <a href="#contacts" class="header_text">Контакти</a>
             </li>
           </ul>
         </div>
@@ -179,23 +179,19 @@
   </section>
   <section id="dino_game">
     <div class="container">
-      <div class="dino_line">
         <h1 class="dino_title">Google динозавр</h1>
         <canvas id="canvass" width="720" height="297"></canvas>
         <button id="retryButton">Retry</button>
-      </div>
     </div>
   </section>
   <section id="soccer">
     <div class="container">
-      <div class="soccer_line">
         <h3 class="soccer_title">Футбол</h3>
         <div class="border_field">
           <div id="field">
             <img src="./images/soccer/ball.png" alt="" id="ball">
           </div>
         </div>
-      </div>
     </div>
   </section>
   <section id="highest_number_section">
@@ -254,7 +250,7 @@
           </svg>
         </li>
         <li class="footer_box_item">
-          <p class="footer_contacts">
+          <p class="footer_contacts" id="contacts">
             Тел: +38 (123) 456 78 90<br />
             E-Mail: codingmagic@gmail.com<br />
             Facebook: CodingMagic<br />
@@ -276,6 +272,10 @@
       </ul>
     </div>
   </section>
+
+  <a href="#sort_select">
+    <img src="./images/up.png" alt="up" class="up">
+  </a>
 
 <!-- <div class="footer_backdrop footer_is_hidden" data-backdrop>
   <form class="footer_backdrop_background_modal">

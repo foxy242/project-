@@ -105,6 +105,10 @@
  */
 /* header */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1090px;
   padding-left: 10px;
@@ -121,34 +125,30 @@
   display: flex;
 }
 
-.header_component {
-  &:nth-child(2) {
-    margin-left: 81px;
-  }
-  &:nth-child(3) {
-    margin-left: 361px;
-  }
-}
-
 .header_logo {
   width: 93px;
   height: 38.15px;
   fill: #fff;
 }
+
 .header_list {
   gap: 50px;
   list-style: none;
   display: flex;
   margin-top: 0;
+  align-items: center;
 }
+
 .header_item {
   width: 97px;
 }
+
 .header_text {
   font-size: 12px;
   font-family: "Montserrat Alternates", sans-serif;
   color: black;
 }
+
 .switch_container {
   width: 40px;
   height: 20px;
@@ -166,41 +166,46 @@
 }
 
 .ball {
-  width: 20px;
-  height: 20px;
-  background-color: #ffcc00;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
   transition: left 0.3s ease, background-color 0.3s ease;
-  border: 2px solid #aa8926;
+  border: 2px solid #000000;
 }
 
 .switch.night .ball {
   left: 100%;
   transform: translateX(-100%);
-  background-color: #7b6f6f;
+  background-color: #000000;
   border-color: #423b3b;
 }
+
 .header_component-switch {
   display: flex;
   gap: 51px;
 }
+
 .header_description {
   font-size: 12px;
   font-family: "Montserrat Alternates", sans-serif;
   width: 100px;
 }
+
 .display-none {
   display: none;
 }
+
 ._button {
   border: none;
   background-color: #fff;
   font-size: 12px;
   font-family: "Montserrat Alternates", sans-serif;
 }
+
 #sort_select {
   background-color: #fff;
   border: none;
@@ -209,6 +214,15 @@
 option {
   background-color: #fff;
   border-radius: 0 20px 20px 0;
+}
+
+.header_component {
+  &:nth-child(2) {
+    margin-left: 81px;
+  }
+  &:nth-child(3) {
+    margin-left: 361px;
+  }
 }
 
 /* check-the-born-year */
@@ -289,13 +303,6 @@ option {
 
 /* guess-the-number */
 
-.container {
-  max-width: 1090px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .guess_the_number_title {
   margin-top: 36px;
   font-size: 16px;
@@ -352,14 +359,6 @@ option {
 }
 
 /* paper-rock-sizors */
-
-.container {
-  max-width: 1090px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 #prs_section {
   font-family: "Montserrat Alternates", solid;
@@ -564,14 +563,6 @@ option {
 
 /* calculator-of-time */
 
-.container {
-  max-width: 1090px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .vector_prs {
   background-color: #000000;
   height: 0.5px;
@@ -692,13 +683,6 @@ option {
 .dino_game {
   margin-top: 36px;
 }
-.container {
-  max-width: 1090px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 #canvass {
   border-bottom: 2px black solid;
@@ -722,22 +706,9 @@ option {
   font-family: "Montserrat Alternates", sans-serif;
   cursor: pointer;
 }
-.dino_line {
-  background-color: #000000;
-  height: 1px;
-  width: 536px;
-  margin: auto;
-}
 
 /* soccer */
 
-.container {
-  max-width: 1090px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
 #field {
   position: relative;
   width: 720px;
@@ -762,23 +733,8 @@ option {
   text-align: center;
   margin-top: 36px;
 }
-.soccer_line {
-  background-color: #000000;
-  height: 0.5px;
-  width: 536px;
-  margin: auto;
-  margin-top: 103px;
-}
 
 /* three-numbers */
-
-container {
-  max-width: 1090px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .line_prs {
   background-color: #000000;
@@ -847,6 +803,8 @@ body {
 .swiper {
   width: 100%;
   height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .swiper_slide {
@@ -865,17 +823,6 @@ body {
   object-fit: cover;
 }
 
-.swiper {
-  margin-left: auto;
-  margin-right: auto;
-}
-.container {
-  max-width: 1090px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .our_team_box {
   margin: auto;
 }
@@ -996,13 +943,6 @@ body {
 
 /* footer */
 
-.container {
-  max-width: 1090px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .footer__logo {
   width: 165px;
   height: 70px;
@@ -1012,25 +952,12 @@ body {
   display: flex;
   list-style: none;
 }
-.container {
-  max-width: 1090px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .header_components {
   display: flex;
   margin-top: 21px;
 }
-.header_component {
-  &:nth-child(2) {
-    margin-left: 81px;
-  }
-  &:nth-child(3) {
-    margin-left: 361px;
-  }
-}
+
 .header_logo {
   width: 93px;
   height: 38.15px;
@@ -1041,9 +968,7 @@ body {
   display: flex;
   margin-top: 0;
 }
-.header_item {
-  width: 97px;
-}
+
 .header_text {
   font-size: 12px;
   font-family: "Montserrat Alternates", sans-serif;
@@ -1214,4 +1139,12 @@ body {
   height: 106px;
   margin-left: 43px;
   margin-bottom: 20px;
+}
+
+.up {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
 }
