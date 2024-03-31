@@ -184,7 +184,7 @@ html {
   border-color: #423b3b;
 }
 
-.header_component-switch {
+.header_component_switch {
   display: flex;
   gap: 51px;
 }
